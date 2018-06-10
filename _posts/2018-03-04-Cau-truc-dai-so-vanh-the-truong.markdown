@@ -3,7 +3,7 @@ layout: posts
 title:  "Cấu trúc đại số - Vành, Thể, Trường"
 subtitle: "Một vài cấu trúc đại số khác"
 date:   2018-03-04
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
