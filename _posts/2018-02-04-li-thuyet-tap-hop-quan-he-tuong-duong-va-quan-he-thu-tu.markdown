@@ -3,7 +3,7 @@ layout: posts
 title:  "Lí thuyết tập hợp - Quan hệ tương đương và quan hệ thứ tự"
 subtitle: "Hai loại quan hệ phổ biến"
 date:   2018-02-4
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
