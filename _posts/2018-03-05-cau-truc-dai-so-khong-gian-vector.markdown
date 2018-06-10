@@ -3,7 +3,7 @@ layout: posts
 title:  "Cấu trúc đại số - Không gian vector"
 subtitle: "Một trong những cấu trúc đại số phổ biến nhất"
 date:   2018-03-05
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
