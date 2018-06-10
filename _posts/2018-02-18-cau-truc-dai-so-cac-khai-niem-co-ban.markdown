@@ -3,7 +3,7 @@ layout: posts
 title:  "Cấu trúc đại số - Các khái niệm cơ bản"
 subtitle: "Cấu trúc đại số là gì?"
 date:   2018-02-18
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
