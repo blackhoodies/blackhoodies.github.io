@@ -3,7 +3,7 @@ layout: posts
 title:  "Thứ tự và ánh xạ, các ánh xạ đặc biệt"
 subtitle: "Các khái niệm khác về ánh xạ"
 date:   2018-02-10
-categories: [đại ]
+categories: [đại số]
 permalink:
 cover:
 description:
