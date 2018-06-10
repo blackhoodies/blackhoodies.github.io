@@ -3,7 +3,7 @@ layout: posts
 title:  "Lí thuyết tập hợp - Tập hợp"
 subtitle: "Những điều cần biết về tập hợp"
 date:   2018-01-22
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
