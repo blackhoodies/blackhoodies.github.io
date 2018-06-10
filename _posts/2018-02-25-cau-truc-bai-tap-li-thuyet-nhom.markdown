@@ -3,7 +3,7 @@ layout: posts
 title:  "Bài tập về nhóm"
 subtitle: "Tụi mình đã biết được những gì về nhóm?"
 date:   2018-02-25
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
