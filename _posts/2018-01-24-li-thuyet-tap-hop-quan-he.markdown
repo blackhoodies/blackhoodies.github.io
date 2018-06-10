@@ -3,7 +3,7 @@ layout: posts
 title:  "Lí thuyết tập hợp - Quan hệ"
 subtitle: "Quan hệ là gì?"
 date:   2018-01-24
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
