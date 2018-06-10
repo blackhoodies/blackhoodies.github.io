@@ -3,7 +3,7 @@ layout: posts
 title:  "Nhóm cyclic và nhóm đối xứng"
 subtitle: "Một vài loại nhóm đặc biệt"
 date:   2018-02-28
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
