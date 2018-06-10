@@ -3,7 +3,7 @@ layout: posts
 title:  "Lí thuyết tập hợp - Ánh xạ"
 subtitle: "Công cụ của chúng ta"
 date:   2018-02-7
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
