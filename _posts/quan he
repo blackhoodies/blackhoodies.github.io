@@ -1,0 +1,104 @@
+
+  <h1 style="font-size: 20px;"> <strong>Quan hệ</strong> </h1>
+  Đây đây tới cái phần hồi trước mình bắt đầu 'xoắn não' đây =)). Quay lại về khái niệm tập hợp ở trên, khi nhất đến tập hợp là tụi mình mới
+  với về khái niệm 'gom cái gì đó vào một chỗ', để 'làm được gì đó' với tập hợp ta vẫn cần phải một <i>vài thứ khác</i>. Như ở phần trên
+  tụi mình đã định nghĩa về <i>quan hệ bao hàm</i> nhưng chưa có gì đã định nghĩa về <i>Quan hệ</i> cả. Do đó trong phần này tụi mình sẽ tìm
+  hiểu về <i>quan hệ</i>, và chủ yếu là <i>quan hệ hai ngôi</i>. Tại sao gọi là <i>quan hệ hai ngôi</i>? =)) đơn giản là quan hệ giữa hai vật nào đó. Nhưng mình đã nói từ tập hợp chúng ta sẽ có được nhiều thứ, và
+    bây giờ tụi mình sẽ xây dựng <i>quan hệ hai ngôi</i> từ thứ tụi mình đang có: Tập hợp. <br/><br/>
+  <i style="font-size: 20px">Quan hệ hai ngôi</i> <br />
+  <strong>Định nghĩa quan hệ</strong> <br/>
+  \(E,F\) là hai tập hợp. Mọi bộ ba \((E,\Gamma, F)\), trong đó \(\Gamma \in \mathfrak{P}(E \times F)\), gọi là quan hệ từ \(E\) đến \(F\).
+  Cho \(x \in E\) và \(y \in F\), nếu \(x\) có quan hệ \(\mathcal{R}\) với \(y\) thì \((x,y) \in \Gamma\). Tụi mình sẽ kí hiệu \(x\mathcal{R}y\) thay cho \((x,y)\in \Gamma\). <br />
+  \(E\) là tập nguồn của \(\mathcal{R}\). \(x \in E\) <br/>
+  \(F\) là tập đích của \(\mathcal{R}\). \(y \in F\)<br />
+  \(\Gamma\) là đồ thị của \(\mathcal{R}\). <br />
+
+  Và khi \(F = E\) thì ta gọi \(\mathcal{R}\) là <strong>quan hệ hai ngôi</strong>.
+  <br/>
+  Bản thân mình thấy định nghĩa trên khá phức tạp, nhưng nó lại khá chặt chẽ vì khi định nghĩa quan hệ, sau này là hàm, phần lớn sẽ quên định nghĩa tập nguồn và
+  tập đích của quan hệ. Từ định nghĩa trên, tụi mình có thể hiểu việc định nghĩa <i>quan hệ</i> dựa trên bộ ba \(E,\Gamma, F\) là giúp chúng ta luôn nhớ định nghĩa
+  tập nguồn và tập đích của quan hệ. \(\Gamma\) là tập hợp các \((x,y) \in E \times F\) có quan hệ \(\mathcal{R}\) với nhau. Vậy ta có thể hiểu định nghĩa
+  <i>quan hệ</i> mang tính 'tập hợp' hơn. <br/>
+  Quan hệ là tập hợp các cặp có thứ tự \((x,y) \in E \times F\) mà các tập nguồn \(E\) và tập đích \(F\) được xác định rõ. Như vậy, quan hệ vẫn chỉ là tập hợp nhé, không
+  có gì lạ lẫm hết =)). <br/>
+
+  Từ đó ta viết các quan hệ \(\in, \subset\) nhìn có vẻ 'toán' hơn =)). <br/>
+  \(\in\,  = (E, \Gamma, \mathfrak{P}(E) )\). Chú ý là tập hợp \(E\) ở đây không giống như ở trên định nghĩa mà là tập hợp trừu tượng được coi là chứa tất cả mọi thứ. Ta có: \(\Gamma = \{(x,A): x \, \text{thuộc}\, A\}\), . Nhớ lại tụi mình không có
+  định nghĩa là khái niệm 'thuộc', mà chỉ chấp nhận nó.
+  Do đó nếu \(x \in E, A\in \mathfrak{P}(E), x\in A \Rightarrow (x,A) \in \Gamma \). Từ đây, ta có thể định nghĩa quan hệ bao hàm của hai tập hợp. <br/>
+  \(\subset \, = (E,\Gamma,E)\),  và \( \Gamma = \{(A,B) : \forall x \in A \Rightarrow x \in B  \}\). <br/>
+  Ví dụ: Chúng ta chưa đề cập đến trường số nguyên, nhưng trong ví dụ này sẽ coi như các bạn đã 'biết' về trường số nguyên rồi. <br />
+  Quan hệ 'bé hơn' trong trường số nguyên: \(<\, = (\mathbb{Z}, \Gamma, \mathbb{Z}) \) với \(\Gamma = {(x,y) : x < y}\). Việc làm sao để biết \(x < y\) thì các bạn sẽ biết khi học về trường số nguyên. Do \(3 < 5 \Rightarrow (3,5) \in \Gamma\) của \(<\). <br/>
+  Ví dụ khác: Ta có thể biễu diễn một quan hệ bằng biểu đồ hình tên, trong đó mũi tên sẽ đi từ \(x\) đến \(y\) để mô tả \(x\mathcal{R}y\). <br/>
+<div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-zMwfdazn4Tc/WlLxXDyF8nI/AAAAAAAABbI/xyyQew_zOwgwp39oxUQHu8BVcZTfxDwMACLcBGAs/s1600/Untitled.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-zMwfdazn4Tc/WlLxXDyF8nI/AAAAAAAABbI/xyyQew_zOwgwp39oxUQHu8BVcZTfxDwMACLcBGAs/s400/Untitled.png" width="400" height="230" data-original-width="765" data-original-height="440" /></a></div>
+  Dựa vào biểu đồ trên, ta có đồ thị \(\Gamma\) của \(\mathcal(R)\) là \(\Gamma= \{(Nam,Lan), (Nam,Trang),(Thành,Trang),(Long,Mai)\}\). Để ý là chiều của mũi tên chỉ có từ \(E\) đến \(F\), điều nhắc lại cho
+  tụi mình là đồ thị của quan hệ được định nghĩa từ những cặp có thứ tự, khi nói về quan hệ ta chỉ mang tính 'một chiều' từ tập đích đến tập nguồn. Điều đó có nghĩa là Nam 'thích' Trang nhưng ngược lại Trang 'thích' Nam thì chưa chắc. Các bạn nam cũng nên
+  nhớ điều này =)). <br />
+
+  Từ đây, ta có thể định nghĩa quan hệ n ngôi như sau: <br />
+  Với \(E_1, E_2, ..., E_n\) là những tập hợp. Quan hệ n ngôi là một bộ (n+1) \((E_1,E_2,...,E_n,\Gamma)\). Với \(\Gamma \in \mathfrak{P}(E_1 \times E_2 ... \times E_n)\). <br/>
+  <br/>
+  Vậy là tụi mình đã biết được \(x\) có quan hệ với \(y\), vậy thì \(y\) có quan hệ gì với \(x\)? Từ đó, ta bắt đầu nghĩ đến khái niệm <i>quan hệ ngược</i>.<br/> <br/>
+
+  <strong>Quan hệ ngược</strong><br/>
+  \(E,F\) là hai tập hợp, \(\mathcal{R}\) là một quan hệ từ \(E\) đến \(F\). Quan hệ ngược của \(\mathcal{R}\), kí hiệu \(\mathcal{R}^{-1}\), là quan hệ từ \(F\) đến \(E\), được định nghĩa bởi:
+  <center>\(\forall (x,y) \in E \times F, y \mathcal{R}^{-1} x \Leftrightarrow x\mathcal{R}y\) </center>
+  Ví dụ: '<' là quan hệ 2 ngôi ngược với quan hệ '>' trong \(\mathbb{N}\). <br/>
+  Quan hệ có \(\Gamma = \{(1,A), (2,B), (3,C)\}\) là quan hệ ngược đối với quan hệ có \(\Gamma=\{(A,1), (B,2), (C,3)\}\) với E là tập hợp chữ số, F là tập hợp chữ cái. <br/>
+  <i>Lưu ý:</i>  Với mỗi quan hệ bất kì, sẽ luôn tồn tại quan hệ ngược đối với nó. <br/>
+  Ví du: Bạn 'crush' T, thì quan hệ ngược lại giữa T với bạn là 'bị crush'. :3  <br/>
+  <br/>
+  <strong>Các tính chất mà quan hệ hai ngôi có thể có</strong><br/>
+  Một quan hệ hai ngôi \(\mathcal{R}\) trong một tập hợp \(E\) được gọi là: <br/>
+  <i>phản xạ</i> khi và chỉ khi: \(\forall x \in E, x\mathcal{R}x\)<br/>
+  <i>đối xứng</i> khi và chỉ khi: \(\forall (x,y) \in E^2, x\mathcal{R}y \Rightarrow y\mathcal{R}x \) <br/>
+  <i>phản đối xứng</i> khi và chỉ khi: \(\forall (x,y) \in E^2, \begin{cases} x\mathcal{R}y \\ y\mathcal{R}x \end{cases} \Rightarrow x = y \) <br />
+  <i>bắc cầu</i> khi và chỉ khi: \(\forall (x,y,z) \in E^3, \begin{cases} x\mathcal{R}y \\ y\mathcal{R}z \end{cases} \Rightarrow x\mathcal{R}z \) <br /> <br/>
+Oh trời, một loạt tính chất răn mà nhớ nỗi trời, thực ra mình nghĩ các bạn bây giờ không cần phải thuộc các khái niệm trên, chỉ cần đọc đi đọc lại vài lần là quen thôi. Và mình chú ý là các tính chất trên
+không phải tất cả quan hệ hai ngôi nào cũng có. Vậy tại sao cần phải biết nó? vì không phải quan hệ hai ngôi nào cũng có tất cả các tính chất trên nên ta có thể dùng các tính chất trên để phân biệt các quan hệ với nhau. <br/>
+<br/> Một vài ví dụ về các tính chất trên <br/>
+phản xạ: trong tập E là tập hợp loài người thì quan hệ "thích" có tính phản xạ. Vì mình nghĩ, tất cả mọi người, ai có cũng "thích" bản thân mình hết. <br/>
+Một chút toán hơn, quan hệ bao hàm \(\subset\) trong tập hợp \(E\) chứa tất cả các tập hợp có tính phản xạ, \(A\subset A\), vì \(\forall x \in A \Rightarrow x \in A\) =)).<br/>
+đối xứng: quan hệ '=' trong trường số nguyên.<br/>
+phản đối xứng: quan hệ \(\le\) trong trường số tự nhiên. <br/>
+bắc cầu: quan hệ 'song song' của 2 đường thẳng trong một mặt phẳng. Hay quan hệ 'là họ hàng ruột' trong tập hợp loài người.  <br/>
+
+Tại sao nó giúp chúng ta phân biệt quan hệ? <br/>
+So sánh hai quan hệ \(\in\) và \(\subset\), thấy quan hệ \(\in\) không có tính phản xạ và bắc cầu, ta có đưa ra một phản ví dụ: tập hợp các số nguyên \(\mathbb{Z} = \{...,-1,0,1,...\}\), ta có thể thấy \(\mathbb{Z}\) không phải là phần tử của \(\mathbb{Z}\). Quan hệ \(\in\) không có tính bắc cầu,
+ta cũng có một phản ví dụ: \(3\in \mathbb{Z} \wedge \mathbb{Z} \in A =\{\mathbb{Z}, \mathbb{Q}, \mathbb{R}\}\) nhưng \(3 \notin A\). Trong khi đó, quan hệ \(\subset\) lại có tính phản xạ và bắc cầu. <br/>
+Hay trong tập hợp loài người, coi trong tập hợp này mỗi người chỉ được làm một công việc. Ta có quan hệ 'là đồng nghiệp' là quan hệ có tính bắt cầu. Còn quan hệ 'là người yêu' thì không có tính bắc cầu =)). À mà, nãy giờ lấy ví dụ là về quan hệ hai ngôi nhé các bạn. <br/>
+Và các bạn có thể để thấy các ví dụ nãy giờ của mình về quan hệ luôn nhắc đến tập đích và tập nguồn của quan hệ. <br/>
+Trước khi về một vài loại quan hệ 'đặc biệt' thì tụi mình hãy nói về kiểu quan hệ 'lồng ghép' vào nhau. Kiểu như bạn có quan hệ 'là bạn trai' đối với Phương. Quang có quan hệ 'là người yêu cũ' đối với Phương. Vậy, Bạn có quan hệ gì đối với Quang?<br/>
+Từ bài toán kiểu như thế, ta nghĩ đến khái niệm về <i>quan hệ hợp</i> <br/><br/>
+<strong>Quan hệ hợp</strong><br/>
+\(E,F,G\) là các tập hợp. \(\mathcal{R}\) là một quan hệ từ \(E\) đến \(F\). \(\mathcal{S}\) là một quan hệ từ \(F\) đến \(G\). Quan hệ hợp của \(\mathcal{R}\) và \(\mathcal{S}\),
+kí hiệu \(\mathcal{S}\circ \mathcal{R}\), là quan hệ từ \(E\) đến \(G\) được xác định bởi:
+<center> \(\forall (x,z) \in E \times G, \, x \mathcal{S} \circ \mathcal{R} z \Leftrightarrow \exists y \in F, \begin{cases} x \mathcal{R} y \\ y \mathcal{S} z \end{cases} \) </center><br/>
+Không biết các bạn có giống mình không lúc đầu cái kí hiệu \(\mathcal{S} \circ \mathcal{R}\) cảm thấy nó bị ngược ngược răn á =)). Sau ni mình mới để ý là bọn mình sẽ định nghĩ hàm từ quan hệ, và tụi mình cũng sẽ có khái niệm <i>hàm hợp</i>.
+Giống như quan hệ hợp, nếu như tụi mình có 2 hàm f, g thì hàm hợp sẽ được kí hiệu: \(f \circ g\), khi đó ta sẽ có: \(x g \circ f z\), cái này viết lại \(z = g\circ f(x) = g(f(x))\). Và cái gì trong ngoặc sẽ thực hiện trước đúng không nào? Nghĩa là
+f sẽ 'tác động' lên x trước sau đó đến g 'tác động' lên f(x). Như vậy, sẽ thấy 'thuận thuận' đúng không? Và việc viết g trước f sẽ không thay đổi thứ tự khi ta thay đổi cách viết hàm hợp. Do đó, việc viết \(\mathcal{S}\) trước \(\mathcal{R}\), sẽ
+cũng có nghĩa chúng ta sẽ quan tâm đến quan hệ \(x\mathcal{R}y\) trước quan hệ \(y\mathcal{S}z\). Vì quan hệ hợp vẫn là quan hệ nên nó vẫn là một tập hợp và quan hệ hợp có đồ thị \(\Gamma = \{(x,z): \exists y \in F, \begin{cases} x \mathcal{R} y \\ y \mathcal{S} z \end{cases} \}\)  <br />
+<br/>
+Và một trong những điều lưu ý đối với quan hệ hợp là quan hệ ngược đối với một quan hệ hợp.<br/>
+
+<i><u>Quan hệ ngược của một quan hệ hợp </u></i><br/>
+\(E,F,G\) là các tập hợp. \(\mathcal{R}\) là một quan hệ từ \(E\) đến \(F\). \(\mathcal{S}\) là một quan hệ từ \(F\) đến \(G\). Ta có:
+<center>\((\mathcal{S} \circ \mathcal{R})^{-1} = \mathcal{R}^{-1} \circ \mathcal{S}^{-1}\) </center>
+<br/>
+Chứng minh<br/>
+\(\forall (x,z) \in E \times G\):<br/>
+\(z(\mathcal{S}\circ\mathcal{R})^{-1} \Leftrightarrow x\mathcal{S} \circ \mathcal{R} z \Leftrightarrow \exists y \in F: \begin{cases} x\mathcal{R}y \\ y\mathcal{S}z\end{cases} \Leftrightarrow
+\exists y \in F, \begin{cases} z\mathcal{S}^{-1}y \\ y\mathcal{R}^{-1}x\end{cases} \Leftrightarrow \mathcal{R}^{-1} \circ \mathcal{S}^{-1}\)
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
