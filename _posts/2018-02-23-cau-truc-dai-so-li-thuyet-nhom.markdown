@@ -3,7 +3,7 @@ layout: posts
 title:  "Cấu trúc đại số - Lí thuyết nhóm"
 subtitle: "Nhóm là gì?"
 date:   2018-02-23
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
