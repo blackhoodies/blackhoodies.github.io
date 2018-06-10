@@ -3,7 +3,7 @@ layout: posts
 title:  "Ôn tập Nhóm, Vành, Thể, Trường"
 subtitle: "Nhớ lại về những cấu trúc đã tìm hiểu nào!"
 date:   2018-03-04
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
