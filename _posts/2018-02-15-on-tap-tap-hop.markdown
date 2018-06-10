@@ -3,7 +3,7 @@ layout: posts
 title:  "Ôn tập về tập hợp"
 subtitle: "Tụi mình đã biết những gì về tập hợp"
 date:   2018-02-15
-categories: [dai-so]
+categories: [đại số]
 permalink:
 cover:
 description:
